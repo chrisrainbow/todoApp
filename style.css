@@ -1,0 +1,40 @@
+
+
+/* https://fontawesome.com/v4.7/examples/#
+
+https://fontawesome.com/account/cdn
+
+See examples of how font awesome icons are setup in classes
+*/
+
+
+body {
+    background: #352f5b!important;
+}
+.container {
+    max-width:400px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color:#FFF;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width:400px;
+}
+
+.todos li {
+    background: #423a6f;
+    color:#FFF
+    
+}
+ul {
+    max-width:400px;
+}
+
+.delete {
+    cursor: pointer;
+}
+.filtered {
+    display:none;
+}
